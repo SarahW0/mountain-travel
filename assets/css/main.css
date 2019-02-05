@@ -1,0 +1,29 @@
+html {
+  font: normal 16px sans-serif;
+  color: #555; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header__nav {
+  margin-right: -15px; }
+  .header__nav ul {
+    list-style: none;
+    display: flex; }
+  .header__nav li {
+    margin: 2px 10px; }
+  .header__nav a {
+    text-decoration: none;
+    opacity: 0.75; }
+  .header__nav a:hover {
+    opacity: 1; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 100px 0; }
+  .header__title {
+    font-family: "Quicksand", sans-serif; }

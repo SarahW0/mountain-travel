@@ -1,0 +1,41 @@
+.destinations .grid {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	li {
+		height: 250px;
+		padding: 20px;
+		background-clip: content-box;
+		background-size: cover;
+		background-position: center;
+	}
+	&__small {
+		flex-basis: 30%;
+	}
+	&__large {
+		flex-basis: 70%;
+	}
+}
+
+.packages .grid {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	li {
+		padding: 20px 40px;
+		flex: 1 0 50%;
+		min-width: 300px;
+
+		i {
+			color: #8c9eff;
+		}
+
+		h4 {
+			font-size: 30px;
+			margin: 25px 0;
+		}
+	}
+}
